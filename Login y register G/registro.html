@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <!--FORMULARIO---->
+    <form class="form" action="conexion.php" name="" method="POST">
+        
+        <!--TITULO------------------------>
+        <h1 class="titulo">Registro</h1>
+        
+        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+        <input class="cajas" type="text"  name="nombre" placeholder="Nombre" required>
+        <input class="cajas" type="text" name="apellidoP" placeholder="Apellido Paterno" required>
+        <input class="cajas" type="text" name="apellidoM" placeholder="Apellido Materno" required>
+        <input class="cajas" type="text" name="id_User" placeholder="Usuario" required>
+        <input class="cajas" type="email" name="email" placeholder="Correo Electronico" required>
+        <input class="cajas" type="password" name="contraseña" placeholder="Password" required>
+        <select class="cajas"  name="pais" placeholder="Seleccione un pais" required>
+            <option value="Empty" selected>Selecciona un pais</option>
+            <option value="México">México</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Cánada">Cánada</option>
+        </select>
+        <input class="cajas" type="text" name="id_User" placeholder="Usuario" required>
+        <input class="cajas" type="text" name="telefono" placeholder="Numero de Telefono" required>
+        <input class="cajas" type="date" placeholder="" name="fecha" placeholder="Fecha de Nacimiento" required>
+
+        <!--BOTON-DE-REGISTRARSE-------------------------->
+        <input
+              class="btn"
+              type="submit"
+              value="Registrarse"/>
+    </form>
+</body>
+</html>

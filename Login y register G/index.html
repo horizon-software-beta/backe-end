@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <!--FORMULARIO---->
+    <form class="form" action="conexion.php" name="" method="POST">
+        
+        <!--TITULO------------------------>
+        <h1 class="titulo">Inicio de secion</h1>
+        
+        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+        <input class="cajas" type="text"  name="nombre" placeholder="Usuario" required>
+        <input class="cajas" type="text" name="apellidoP" placeholder="Contraseña" required>
+
+        <p>Si no tienes cuenta <a href="registro.html">Registrate aqui</a></p>
+
+        <input
+              class="btn"
+              type="submit"
+              name="enviar"
+              id="enviar"
+              value="Iniciar"/>
+    </form>
+</body>
+</html>
