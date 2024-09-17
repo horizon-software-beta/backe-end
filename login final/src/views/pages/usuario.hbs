@@ -1,50 +1,67 @@
 <!DOCTYPE html>
+<!--Lenguaje del HTML5--->
 <html lang="en">
-<head>
+<head><!--Base de HTML5-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link Pata-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>CRUD Application</title>
 </head>
+<!--Color de la tabla-->
 <body style="color:white; background-color: #1d2630;">
      
     <div class="container mt-5">
         <div class="text-center">
-            <h1 class="display-5 mb-5"><strong>CRUD Application</strong></h1>
+            <h1 class="display-5 mb-5"><strong>Datos del Personal</strong></h1>
         </div>
 
         <div class="main row justify-content-center">
             <form action=" " id="student-form" class="row justify-content-center mb-4" autocomplete="off">
-                <div class="col-10 col-md-8 mb-3">
+                <div class="col-10 col-md-6 mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Apellido_Paterno">Apellido_Paterno</label>
+                     <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Apellido_Paterno" type="text" placeholder="Apellido_Paterno">
                 </div>
-                <div class="col-10 col-md-8  mb-3">
+                <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Apellido_Materno">Apellido_Materno</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Apellido_Materno" type="text" placeholder="Apellido_Materno">
                 </div>
-                <div class="col-10 col-md-8  mb-3">
+                <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Email">Email</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Email" type="text" placeholder="Email">
                 </div>
-                <div class="col-10 col-md-8  mb-3">
+                <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Contraseña">Contraseña</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Contraseña" type="text" placeholder="Contraseña">
                 </div>
-                 <div class="col-10 col-md-8  mb-3">
+                 <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Telefono">Telefono</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Telefono" type="text" placeholder="Telefono">
                 </div>
-                 <div class="col-10 col-md-8  mb-3">
+                 <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Rol">Rol</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Rol" type="text" placeholder="Rol">
                 </div>
-                 <div class="col-10 col-md-8  mb-3">
+                 <div class="col-10 col-md-6  mb-3">
+                    <!--Etiqueta que nos indica el nombre del campo-->
                     <label form="Estatus">Estatus</label>
+                    <!--Caja de tecxto para los datos-->
                     <input class="form-control" id="Estatus" type="text" placeholder="Estatus">
                 </div>
-                <div class="col-10 col-md-8">
+                <div class="col-10 col-md-6">
                     <input class="btn btn-success add-btn" type="submit" value="Submit">
                 </div>
             </form>
